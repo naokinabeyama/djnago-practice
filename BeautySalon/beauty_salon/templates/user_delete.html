@@ -1,9 +1,0 @@
-{% extends 'base.html' %}
-{% block content %}
-<form method="POST">
-  {% csrf_token %}
-  <p>{{ object.username }}さん、本当に退会しますか？（今までの情報は全て削除されてしまいます。）
-  </p>
-  <input type="submit" value="退会する">
-</form>
-{% endblock %}
