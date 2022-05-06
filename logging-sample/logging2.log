@@ -1,0 +1,9 @@
+2022-03-15 15:29:16,558-__main__-ERROR-エラーログ
+2022-03-15 15:29:16,558-__main__-CRITICAL-クリティカルログ
+2022-03-15 15:32:00,839-__main__-ERROR-エラーログ
+2022-03-15 15:32:00,839-__main__-CRITICAL-クリティカルログ
+2022-03-15 15:32:00,839-__main__-ERROR-division by zero
+Traceback (most recent call last):
+  File "/Users/guoshanshangxi/Desktop/python/sample/logging-sample/02_logging_sample.py", line 40, in <module>
+    c = a / b
+ZeroDivisionError: division by zero

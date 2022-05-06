@@ -1,0 +1,25 @@
+{% load event_tags %}
+{% comment %} <h1>Name : {{ my_name }}</h1>
+<h2>果物 : {{ favorite_fruits.2 }}</h2>
+<h3>年齢 : {{ my_info.age }}</h3> {% endcomment %}
+{{ my_name }}
+<ul>
+  {% for fruit in favorite_fruits %}
+    <li>{{ fruit }}</li>
+  {% endfor %}
+</ul>
+
+{% if 'grape' in favorite_fruits %}
+  <p>Grapeあります</p>
+{% elif 'lemon' in favorite_fruits %}
+  <p>Lemonあります</p>
+{% else %}
+  <p>Not Found</p>
+{% endif %}
+
+{% if 'age' in my_info %}
+  <p>age my info</p>
+  
+{% endif %}
+
+<p>{{ status | status_to_string:'AAA' }}</p>

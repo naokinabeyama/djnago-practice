@@ -1,0 +1,6 @@
+<h1>タスク削除</h1>
+<form method="POST">
+  {% csrf_token %}
+  <p>{{ task }}</p>
+  <input type="submit" value="delete">
+</form>

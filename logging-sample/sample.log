@@ -1,0 +1,9 @@
+2022-03-15 15:07:55,184-16993-WARNING-warning.log
+2022-03-15 15:07:55,184-16993-ERROR-error.log
+2022-03-15 15:07:55,184-16993-CRITICAL-critical.log
+2022-03-15 15:07:55,184-16993-ERROR-user = Taro raised error
+2022-03-15 15:07:55,184-16993-ERROR-division by zero
+Traceback (most recent call last):
+  File "/Users/guoshanshangxi/Desktop/python/sample/logging-sample/01_logging_sample.py", line 22, in <module>
+    c = a / b
+ZeroDivisionError: division by zero
